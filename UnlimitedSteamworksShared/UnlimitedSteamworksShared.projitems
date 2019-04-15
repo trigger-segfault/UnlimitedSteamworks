@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>316fbf8d-c9be-4129-9b02-2408e3e0c263</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>UnlimitedSteamworks</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)SteamAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SteamworksUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SteamworksConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WinConsole.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SteamworksArgs.cs" />
+  </ItemGroup>
+</Project>

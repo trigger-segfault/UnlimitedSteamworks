@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+
+    <AssemblyName>GetOptNet</AssemblyName>
+    <RootNamespace>NMaier.GetOptNet</RootNamespace>
+    
+    <PackageId>GetOptNet</PackageId>
+    <Title>GetOptNet class library</Title>
+    <Authors>Nils Maier</Authors>
+    <Company />
+    <Copyright>Copyright 2009-2019</Copyright>
+    <Description>Commandline Argument Parser for .Net</Description>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <!--<PackageLicenseUrl>https://raw.github.com/nmaier/getoptnet/master/LICENSE</PackageLicenseUrl>-->
+    <PackageProjectUrl>https://github.com/nmaier/getoptnet</PackageProjectUrl>
+    <PackageTags>GetOpt, option, options, optparse, arguments, args, argparse, command line</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/nmaier/getoptnet</RepositoryUrl>
+    <Version>3.1.4</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+</Project>

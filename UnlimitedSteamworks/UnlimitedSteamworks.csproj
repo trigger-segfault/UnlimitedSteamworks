@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net45</TargetFramework>
+    <ApplicationIcon>..\App.ico</ApplicationIcon>
+    <RootNamespace>UnlimitedSteamworks</RootNamespace>
+    <OutputPath>..\bin\$(Configuration)</OutputPath>
+    <LangVersion>latest</LangVersion>
+    <PlatformTarget>x86</PlatformTarget>
+    <StartupObject />
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AssemblyTitle>Unlimited Steamworks Launcher</AssemblyTitle>
+    <Title>$(AssemblyTitle)</Title>
+    <Description>A launcher for Steam apps to signal Steam activity, protect against crashing apps breaking relaunching, and circumventing Steam's terrible command line argument security measures.</Description>
+
+    <Authors>Robert Jordan</Authors>
+    <Company>Trigger's Tools &amp; Games</Company>
+    <Copyright>Copyright © Robert Jordan $([System.DateTime]::Now.Year)</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;OPTGET</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;OPTGET</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.16.1">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GetOptNet\GetOptNet.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\UnlimitedSteamworksShared\UnlimitedSteamworksShared.projitems" Label="Shared" />
+ 
+</Project>
