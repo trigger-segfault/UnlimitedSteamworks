@@ -8,7 +8,7 @@
 
 A launcher for Steam apps to signal Steam activity, protect against crashing apps breaking relaunching, and circumventing Steam's terrible command line argument security measures.
 
-Unlimited Steamworks is for launching Steam games **without** the use of the Steam client. All issues aside from the 2rd point are moot when a game is launched via the Steam client.
+Unlimited Steamworks is for launching Steam games **without** the use of the Steam client. All issues aside from the 2nd point are moot when a game is launched via the Steam client.
 
 This launcher may have unintended side effects if the game being run has built in Steam activity support.
 
