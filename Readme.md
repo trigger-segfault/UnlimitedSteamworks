@@ -1,9 +1,9 @@
 # Unlimited Steamworks Launcher ![AppIcon](https://i.imgur.com/lxLaZ7X.png)
 
-[![Latest Release](https://img.shields.io/github/release-pre/trigger-death/UnlimitedSteamworksLauncher.svg?style=flat&label=version)](https://github.com/trigger-death/UnlimitedSteamworksLauncher/releases/latest)
-[![Latest Release Date](https://img.shields.io/github/release-date-pre/trigger-death/UnlimitedSteamworksLauncher.svg?style=flat&label=released)](https://github.com/trigger-death/UnlimitedSteamworksLauncher/releases/latest)
-[![Total Downloads](https://img.shields.io/github/downloads/trigger-death/UnlimitedSteamworksLauncher/total.svg?style=flat)](https://github.com/trigger-death/UnlimitedSteamworksLauncher/releases)
-[![Creation Date](https://img.shields.io/badge/created-april%202019-A642FF.svg?style=flat)](https://github.com/trigger-death/UnlimitedSteamworksLauncher/commit/b6691de97410dac4648ca32303415940113e02f8)
+[![Latest Release](https://img.shields.io/github/release-pre/trigger-death/UnlimitedSteamworks.svg?style=flat&label=version)](https://github.com/trigger-death/UnlimitedSteamworks/releases/latest)
+[![Latest Release Date](https://img.shields.io/github/release-date-pre/trigger-death/UnlimitedSteamworks.svg?style=flat&label=released)](https://github.com/trigger-death/UnlimitedSteamworks/releases/latest)
+[![Total Downloads](https://img.shields.io/github/downloads/trigger-death/UnlimitedSteamworks/total.svg?style=flat)](https://github.com/trigger-death/UnlimitedSteamworks/releases)
+[![Creation Date](https://img.shields.io/badge/created-april%202019-A642FF.svg?style=flat)](https://github.com/trigger-death/UnlimitedSteamworks/commit/b6691de97410dac4648ca32303415940113e02f8)
 [![Discord](https://img.shields.io/discord/436949335947870238.svg?style=flat&logo=discord&label=chat&colorB=7389DC&link=https://discord.gg/vB7jUbY)](https://discord.gg/vB7jUbY)
 
 A launcher for Steam apps to signal Steam activity, protect against crashing apps breaking relaunching, and circumventing Steam's terrible command line argument security measures.
